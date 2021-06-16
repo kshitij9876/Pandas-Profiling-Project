@@ -70,7 +70,7 @@ Meanings of some of the important terms in profile report:
 * **Kendall's τ Correlation**- The Kendall rank correlation coefficient (τ) measures ordinal association between two variables.
 * **Phik(φk) Correlation**-Phik (φk) is a new and practical correlation coefficient that works consistently between categorical, ordinal and interval variables, captures non-linear dependency and reverts to the Pearson correlation coefficient in case of a bivariate normal input distribution.
 
-So,here we are going to analyse about the various information about covid-19 in India and can get a wonderful results through pandas-profiling package. 
+So,here we are going to analyse about the various information about covid-19 datasets in India and can get a wonderful results through pandas-profiling package. 
 ## Conclusion
 Hence pandas-profiling is a good package but it cannot be used to solve all the problems as the information inside it is too much and sometimes we does not need that much information.Generally with the increase in the size of the data the time to generate the report also increases a lot and for that we should have a powerful computer for getting our work to be done faster.Sometimes we can also take sample of the data to analyse it and through generated report we can understand it and can take major decision about what will happen in future.
 
