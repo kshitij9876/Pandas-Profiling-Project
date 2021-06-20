@@ -1,4 +1,4 @@
-# Pandas Profiling report 
+# Pandas Profiling 
 Pandas profiling is an open source Python module with which we can quickly do an exploratory data analysis(EDA) with just a few lines of code. Besides, if this is not enough to convince us to use this tool, it also generates interactive reports in web format that can be presented to any person.In short, what pandas profiling does is save us all the work of visualizing and understanding the distribution of each variable. It generates a report with all the information easily available.Pandas allows importing data from various file formats such as CSV, JSON, Microsoft Excel.<br/>
 
 **Exploratory Data Analysis**-In statistics, exploratory data analysis is an approach of analyzing data sets to summarize their main characteristics, often using statistical graphics and other data visualization methods. A statistical model can be used or not, but primarily EDA is for seeing what the data can tell us beyond the formal modeling or hypothesis testing task.<br/>
