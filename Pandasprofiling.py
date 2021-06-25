@@ -2,7 +2,7 @@
 import pandas as pd 
 from pandas_profiling import ProfileReport
 #Reading data from specified file
-df=pd.read_csv(r"C:\Users\kshit\OneDrive\Documents\covidindia.csv")
+df=pd.read_csv(r"covidindia.csv")
 #Forming dataframe and printing
 data=pd.DataFrame(df)
 print(df)
