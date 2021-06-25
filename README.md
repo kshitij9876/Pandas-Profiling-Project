@@ -1,4 +1,13 @@
-# Pandas Profiling 
+# Pandas Profiling
+## Contributors
+**Kshitij Kumar<br/>**
+**Khelawan Singh<br/>**
+**Lokesh Khande<br/>**
+
+![](https://camo.githubusercontent.com/8a45c0936d6113b12b7b32942f448270eda8f714665ba8629f36c291f0ccd5fd/68747470733a2f2f70616e6461732d70726f66696c696e672e6769746875622e696f2f70616e6461732d70726f66696c696e672f646f63732f6173736574732f6c6f676f5f6865616465722e706e67)
+
+
+### Introduction
 Pandas profiling is an open source Python module with which we can quickly do an exploratory data analysis(EDA) with just a few lines of code. Besides, if this is not enough to convince us to use this tool, it also generates interactive reports in web format that can be presented to any person.In short, what pandas profiling does is save us all the work of visualizing and understanding the distribution of each variable. It generates a report with all the information easily available.Pandas allows importing data from various file formats such as CSV, JSON, Microsoft Excel.<br/>
 
 **Exploratory Data Analysis**-In statistics, exploratory data analysis is an approach of analyzing data sets to summarize their main characteristics, often using statistical graphics and other data visualization methods. A statistical model can be used or not, but primarily EDA is for seeing what the data can tell us beyond the formal modeling or hypothesis testing task.<br/>
@@ -6,7 +15,7 @@ One of the nice points of the generated report is the warnings that appear at th
 ## Installation of pandas and pandas-profiling package
 ### Using pip
 #### Install using pip package manager by running-
-`pip install pandas`
+`pip install pandas`<br/>
 `pip install pandas-profiling`
 ### Using conda
 #### Install using the conda package manager by running-
@@ -31,12 +40,18 @@ Syntax-<br/>
 `profile = ProfileReport(df, minimal=True)`<br/>
 `profile.to_file("CovidIndia.html")`<br/>
 
+For large datsets we can also take samples of the data.<br/>
+Syntax-<br/>
+
+`sample=covidindia.sample(1000)`<br/>
+`profile=df.profile_report(minimal=True)`
+
 We can also select a sample of data to generate a profile report.For example-to select the first n rows of data if actual data is too large.
 ## Analysis of Profile Report-Here we are going to learn almost everything about profile report.
 
 **Reproduction**:Analysis started,Analysis finished,Duration,Version,Command line,Download configuration<br/>
 **Warnings**<br/>
-**Type inference**: detect the types of columns in a dataframe such as categorical and numerical.<br/>
+**Type inference**: detect the types of columns in a dataframe such as Boolean, Numerical, Date, Categorical, URL, Path, File and Image.<br/>
 **Dataset statistics**: Number of variable,Number of observation,Missing cells,Missing cells(%),Duplicate rows,Duplicate rows(%),Total size in memory 
 Average record size in memory<br/>
 **Essentials**: type,unique values,missing values,infinite<br/>
@@ -47,6 +62,8 @@ Average record size in memory<br/>
 **Extreme Values**:minimum and maximum five values<br/>
 **Correlations**: Spearman,Pearson,Kendall,Phik<br/>
 **Missing values matrix,distinct count,heatmap,dendrogram**<br/>
+
+![](https://camo.githubusercontent.com/3392724b4472de56f2d73463174aea97aa51af30fba50ec0e87273d39a496b3d/68747470733a2f2f70616e6461732d70726f66696c696e672e6769746875622e696f2f70616e6461732d70726f66696c696e672f646f63732f6d61737465722f6173736574732f696672616d652e676966)
 
 Meanings of some of the important terms in profile report:
 
@@ -70,8 +87,12 @@ Meanings of some of the important terms in profile report:
 * **Kendall's τ Correlation**- The Kendall rank correlation coefficient (τ) measures ordinal association between two variables.
 * **Phik(φk) Correlation**-Phik (φk) is a new and practical correlation coefficient that works consistently between categorical, ordinal and interval variables, captures non-linear dependency and reverts to the Pearson correlation coefficient in case of a bivariate normal input distribution.
 
-So,here we are going to analyse about the various information about covid-19 datasets in India and can get a wonderful results through pandas-profiling package. 
+So,here we are going to analyse about the various information about covid-19 in India and can get a wonderful results through pandas-profiling package. 
 ## Conclusion
 Hence pandas-profiling is a good package but it cannot be used to solve all the problems as the information inside it is too much and sometimes we does not need that much information.Generally with the increase in the size of the data the time to generate the report also increases a lot and for that we should have a powerful computer for getting our work to be done faster.Sometimes we can also take sample of the data to analyse it and through generated report we can understand it and can take major decision about what will happen in future.
 
-**_For more reference visit:https://pandas-profiling.github.io/pandas-profiling/docs/master/rtd/_**
+## Dependencies
+The profile report is written in HTML and CSS, which means pandas-profiling requires a modern browser.
+We need Python 3 to run this package.
+
+**_For more reference visit:https://pandas-profiling.github.io/pandas-profiling/docs/master/rtd/pages/introduction.html_**
