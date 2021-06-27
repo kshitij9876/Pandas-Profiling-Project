@@ -77,7 +77,7 @@ Meanings of some of the important terms in profile report:
 * **95th percentile**-It is a number that is greater than 95% of the numbers in a given set or It is the highest value left when the top 5% of a numerically sorted set of collected data is discarded.Percentiles can be calculated using the formula n = (P/100) x N, where P = percentile, N = number of values in a data set.
 * **Coefficient of variation(CV)**-It shows the extent of variability in relation to the mean of the population.It is the ratio of standard deviation to the mean.The higher the coefficient of variation, the greater the level of dispersion around the mean.
 * **Interquartile range(IQR)**-It describes the middle 50% of values when ordered from lowest to highest.To find the interquartile range (IQR), ​first find the median (middle value) of the lower and upper half of the data. These values are quartile 1 (Q1=25th percentile) and quartile 3 (Q3=75th percentile).Q2(=50th percentile) is the median of the dataset.
-* **Skewness**-It is the tendency of a distribution that determines its symmetry about the mean.Types-Positive skewed and Negative skewness.
+* **Skewness**-It is the tendency of a distribution that determines its symmetry about the mean.Types-Positive skewness and Negative skewness.
 * **Kurtosis**- It means the measure of the sharpness of the peak of probablity distribution curve.
 * **Dendrogram**-It is a branching diagram that represents the relationships of similarity among a group of entities.
 * **Heatmap**-It is a graphical representation of data that uses a system of color-coding to represent different values.
