@@ -7,9 +7,10 @@ df=pd.read_csv(r"C:\Users\kshit\OneDrive\Documents\covidindia.csv")
 print(df)
 
 #Forming profile report
-profile=df.profile_report(title="Covid India Dataset",plot={"dpi": 800, "image_format": "png"})
+profile=df.profile_report(title="Covid India Analysis Report",plot={"dpi": 800, "image_format": "png"})
 
 #Giving profile report an interactive outlook
+profile.set_variable("variables.descriptions", {"positive_rate": "Indicates how widespread infection is in the area."})
 profile.set_variable("html.style",{"theme":'flatly'})
 profile.set_variable("html.style",{"full_width":True})
 
