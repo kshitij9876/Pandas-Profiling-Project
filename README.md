@@ -19,7 +19,7 @@ One of the nice points of the generated report is the warnings that appear at th
 `pip install pandas-profiling`
 ### Using conda
 #### Install using the conda package manager by running-
-`conda install -c conda-forge pandas`
+`conda install -c conda-forge pandas`<br/>
 `conda install -c conda-forge pandas-profiling`
 ## Getting Started
 We can generate report through two interfaces-through widgets and through a HTML report.But here we will generate report through HTML file.
