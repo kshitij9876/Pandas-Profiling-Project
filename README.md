@@ -29,7 +29,7 @@ We can generate report through two interfaces-through widgets and through a HTML
 #### For reading data from specified file follow the given command(give extension accordingly depending on the file type)-
 `df=pd.read_csv(r"covidindia.csv")`
 #### Forming profile report and saving as html file with output file name 'CovidIndia.html'
-`profile=df.profile_report(title="Covid India Dataset",plot={"dpi": 800, "image_format": "png"})`<br/>
+`profile=df.profile_report(title="Covid India Analysis Report",plot={"dpi": 800, "image_format": "png"})`<br/>
 `profile.to_file(output_file='CovidIndia.html')`<br/>
 
 Now we can see that the it generates profile reports with the file name covidindia in the form of HTML file.Through `profile.to_widgets` the HTML report can be included in a Jupyter notebook.We can also obtain a json file through _.json_ extension.We can also specify the resolution and format of the image.<br/>
