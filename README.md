@@ -71,7 +71,7 @@ Meanings of some of the important terms in profile report:
 * **Mean**-It is the average of the dataset.
 * **Median**-It is the middle of the set of numbers.
 * **Mode**-Frequently or mostly occuring numbers in the dataset.
-* **Median Absolute Deviation(MAD)**-It is a robust(they are not affected by very high or low value) measure of how spread out a set of data is.take the It is absolute value of the difference between the value and the median.
+* **Median Absolute Deviation(MAD)**-It is a robust(they are not affected by very high or low value) measure of how spread out a set of data is.It is absolute value of the difference between the value and the median.
 * **Standard Deviation**-It is a measure of dispersion of observations within a data set about mean.
 * **Variance**-It is the numerical value, which describes how variable the observations are about mean.
 * **95th percentile**-It is a number that is greater than 95% of the numbers in a given set or It is the highest value left when the top 5% of a numerically sorted set of collected data is discarded.Percentiles can be calculated using the formula n = (P/100) x N, where P = percentile, N = number of values in a data set.
